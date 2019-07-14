@@ -1,7 +1,7 @@
 const path = require('path')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
+
 module.exports = {
-    mode:'development',
+
     entry:'./lib/index.tsx',
     output:{
         path:path.resolve(__dirname,'/dist'),
@@ -11,21 +11,38 @@ module.exports = {
     module:{
         rules:[
             {
+                test:/.jsx?$/,
+                use:{
+                    loader:'babel-loader',
+                    options:{
+                        presets:['@babel/preset-env']
+                    }
+                },
+                exclude:/node_modules/
+            },
+            {
                 test:/\.tsx?$/,
                 loader:'awesome-typescript-loader'
+            },
+            {
+                test: /\.svg$/,
+                loader: 'svg-sprite-loader',
+            },
+            {
+                test:/\.s[ac]ss$/,
+                loader: ['style-loader','css-loader','sass-loader']
+            },
+            {
+                test:/.tsx?$/,
+                enforce:'pre',
+                use:[{loader:'tslint-loader'}]
             }
         ]
     },
     resolve: {
         extensions: ['.tsx', '.js', '.jsx']
-      },
-    plugins:[
-        new HtmlWebpackPlugin({
-            title:'首页显示',
-            template:'index.html'
-        })
+      }
 
-    ]
     
 
 }

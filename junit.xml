@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="0" time="3.337">
+  <testsuite name="icon测试" errors="0" failures="0" skipped="0" timestamp="2019-07-14T04:44:36" time="2.416" tests="2">
+    <testcase classname="icon测试 测试UI组件" name="icon测试 测试UI组件" time="0.013">
+    </testcase>
+    <testcase classname="icon测试 测试onclick⌚️" name="icon测试 测试onclick⌚️" time="0.031">
+    </testcase>
+  </testsuite>
+  <testsuite name="cn" errors="0" failures="0" skipped="0" timestamp="2019-07-14T04:44:38" time="0.147" tests="3">
+    <testcase classname="cn 接受一个cn" name="cn 接受一个cn" time="0.002">
+    </testcase>
+    <testcase classname="cn 接受2个cn" name="cn 接受2个cn" time="0.001">
+    </testcase>
+    <testcase classname="cn 接受2个cn" name="cn 接受2个cn" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
