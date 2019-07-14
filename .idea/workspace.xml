@@ -2,40 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81f5e2a4-ebb2-422c-954c-67ab51da7a2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jest.config.ci.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jslint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/__test__/icon.unit.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/bank.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/bookmark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/calendar(1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/calendar.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/checklist.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/draw.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/file.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/folder.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/group.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/lock.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/monitor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/notebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/shield.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/iconSvg/test(1).svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Icon/importAll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/types/type.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/util/__test__/util.unit.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/util/util.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/md/测试.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__mocks__/fileMock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__mocks__/styleMock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.dev.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelac" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.prod.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dist/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,32 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/index.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="726">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="113" selection-start-line="9" selection-start-column="113" selection-end-line="9" selection-end-column="113" />
+            <state relative-caret-position="123">
+              <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webpack.config.prod.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -97,11 +56,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jest.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
               <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-225">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -149,7 +126,6 @@
         <option value="$PROJECT_DIR$/lib/util/util.tsx" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/md/测试.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/test/__mocks__/fileMock.js" />
         <option value="$PROJECT_DIR$/test/__mocks__/styleMock.js" />
         <option value="$PROJECT_DIR$/lib/Icon/importAll.js" />
@@ -161,6 +137,9 @@
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/jest.config.ci.js" />
         <option value="$PROJECT_DIR$/jest.config.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
+        <option value="$PROJECT_DIR$/webpack.config.prod.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -171,21 +150,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/react-ui.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-        <option value="$PROJECT_DIR$/.idea/dictionaries/pacezhou.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="250" />
-    <option name="y" value="214" />
+    <option name="x" value="237" />
+    <option name="y" value="426" />
     <option name="width" value="1329" />
     <option name="height" value="760" />
   </component>
@@ -202,17 +169,6 @@
               <item name="react-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-ui" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="test-results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="test-results" type="462c0819:PsiDirectoryNode" />
-              <item name="jest" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -221,6 +177,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -281,7 +238,7 @@
       <workItem from="1562935242574" duration="9620000" />
       <workItem from="1563023630751" duration="826000" />
       <workItem from="1563028086884" duration="1605000" />
-      <workItem from="1563104236885" duration="502000" />
+      <workItem from="1563104236885" duration="1569000" />
     </task>
     <servers />
   </component>
@@ -294,10 +251,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24711000" />
+    <option name="totallyTimeSpent" value="25778000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="250" y="214" width="1329" height="760" extended-state="0" />
+    <frame x="237" y="426" width="1329" height="760" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -313,11 +271,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32973805" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44992295" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.44992295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" side_tool="true" visible="true" weight="0.2678152" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" side_tool="true" visible="true" weight="0.2678152" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,13 +321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -479,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="113" selection-start-line="9" selection-start-column="113" selection-end-line="9" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.dev.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -517,6 +461,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.prod.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="6" column="82" selection-start-line="6" selection-start-column="82" selection-end-line="6" selection-end-column="82" />
         </state>
       </provider>
     </entry>
